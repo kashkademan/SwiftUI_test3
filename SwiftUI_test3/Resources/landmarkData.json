@@ -1,10 +1,11 @@
 [
     {
         "name": "Turtle Rock",
-        "category": "Featured",
+        "category": "Mountains",
         "city": "Twentynine Palms",
         "state": "California",
         "id": 1001,
+        "isFeatured": true,
         "isFavorite": true,
         "park": "Joshua Tree National Park",
         "coordinates": {
@@ -19,6 +20,7 @@
         "city": "Port Alsworth",
         "state": "Alaska",
         "id": 4,
+        "isFeatured": true,
         "isFavorite": false,
         "park": "Lake Clark National Park and Preserve",
         "coordinates": {
@@ -29,10 +31,11 @@
     },
     {
         "name": "Chilkoot Trail",
-        "category": "Rivers",
+        "category": "Mountains",
         "city": "Skagway",
         "state": "Alaska",
         "id": 5,
+        "isFeatured": false,
         "isFavorite": false,
         "park": "Klondike Gold Rush National Historical Park",
         "coordinates": {
@@ -47,6 +50,7 @@
         "city": "Browning",
         "state": "Montana",
         "id": 8,
+        "isFeatured": false,
         "isFavorite": false,
         "park": "Glacier National Park",
         "coordinates": {
@@ -61,6 +65,7 @@
         "city": "Twin Lakes",
         "state": "Alaska",
         "id": 11,
+        "isFeatured": true,
         "isFavorite": true,
         "park": "Lake Clark National Park and Preserve",
         "coordinates": {
@@ -75,6 +80,7 @@
         "city": "West Glacier",
         "state": "Montana",
         "id": 6,
+        "isFeatured": true,
         "isFavorite": true,
         "park": "Glacier National Park",
         "coordinates": {
@@ -89,6 +95,7 @@
         "city": "Eaking",
         "state": "Alaska",
         "id": 1,
+        "isFeatured": false,
         "isFavorite": false,
         "park": "Charley Rivers National Preserve",
         "coordinates": {
@@ -103,6 +110,7 @@
         "city": "Icy Bay",
         "state": "Alaska",
         "id": 2,
+        "isFeatured": true,
         "isFavorite": false,
         "park": "Wrangell-St. Elias National Park and Preserve",
         "coordinates": {
@@ -117,6 +125,7 @@
         "city": "Willow",
         "state": "Alaska",
         "id": 3,
+        "isFeatured": true,
         "isFavorite": false,
         "park": "State Recreation Area",
         "coordinates": {
@@ -131,6 +140,7 @@
         "city": "Newhalem",
         "state": "Washington",
         "id": 7,
+        "isFeatured": true,
         "isFavorite": true,
         "park": "North Cascades National Park",
         "coordinates": {
@@ -145,6 +155,7 @@
         "city": "Chincoteague",
         "state": "Virginia",
         "id": 9,
+        "isFeatured": true,
         "isFavorite": true,
         "park": "Chincoteague National Wildlife Refuge",
         "coordinates": {
@@ -159,6 +170,7 @@
         "city": "Errol",
         "state": "New Hampshire",
         "id": 10,
+        "isFeatured": true,
         "isFavorite": true,
         "park": "Umbagog National Wildlife Refuge",
         "coordinates": {
