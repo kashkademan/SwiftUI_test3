@@ -21,6 +21,7 @@ struct CategoryHome: View {
     }
     
     @State var showingProfine = false
+    @EnvironmentObject var userData: UserData
     
     var profileButton: some View {
         Button(action: { self.showingProfine.toggle() }) {
@@ -52,7 +53,8 @@ struct CategoryHome: View {
             .navigationBarTitle("Featured")
             .navigationBarItems(trailing: profileButton)
             .sheet(isPresented: $showingProfine) {
-                Text("User Profile")
+                ProfileHost()
+                    .environmentObject(self.userData)
             }
         }
     }
